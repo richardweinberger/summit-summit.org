@@ -10,6 +10,22 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
+	<style>
+	#outdated-banner {
+	    background-color: #ffcc00; /* Yellow background */
+	    color: #333; /* Dark text for good contrast */
+	    text-align: center;
+	    font-size: 16px;
+	    padding: 10px 0;
+	    position: fixed;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    z-index: 9999; /* Ensures it stays on top */
+	    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+	    font-family: Arial, sans-serif; /* Consistent font styling */
+	}
+	</style>
   </head>
   <body>
     <!-- Header -->
@@ -21,6 +37,10 @@
           Glungezer, Tyrol, Austria</p>
       </div>
     </section>
+
+	<div id="outdated-banner">
+		This page is no longer maintained. Please visit <a href=http://alpss.at>Alpine Linux Persistence and Storage Summit</a>.
+	</div>
 
     <!-- Details -->
     <section id="details" class="main style1 special">
